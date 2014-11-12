@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>TFT todos</title>
+    <link rel="stylesheet" href="todos.css"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="todos.js"></script>
+    
+    </head>
+    <body>
+    
+    <div id="todoapp">
+        <div>
+            <header>
+                <h1>
+                    Todos
+                </h1>
+                <input id="new-todo" type="text" placeholder="What needs to be done?"></input>
+            </header>
+            <section id="main" style="display: block;">
+                <input id="toggle-all" type="checkbox"></input>
+                <label for="toggle-all">
+                    Mark all as completed
+                </label>
+                <div class="button-wrap">
+                    <input id="delete-all" class="ph-button ph-btn-grey" type="button" value="Clear all checked todos"></input>
+                </div>
+                <ul id="todo-list">
+                </ul>
+            </section>
+            <footer style="display: block;">
+                <div class="todo-count">
+                    <b> 
+                        0
+                    </b>
+                    item left
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div id="credits">
+        Design copypasted and scripts written by thefacetakt
+    </div>
+
+    </body>
+</html>
